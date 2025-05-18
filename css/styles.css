@@ -23,6 +23,11 @@ nav h1 {
     /* background-color: skyblue; */
 }
 
+nav h2 {
+    margin-left: auto;
+}
+
+
 nav a,
 footer a {
     margin-left: 20px;
