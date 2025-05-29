@@ -215,6 +215,10 @@ section {
     width: 95%; 
 }
 
+article img{
+   display: block;
+}
+
 main {
     font-size: 21px;
 }
