@@ -216,7 +216,8 @@ section {
 }
 
 article img{
-   display: block;
+    display: block;
+    margin: auto;
 }
 
 main {
