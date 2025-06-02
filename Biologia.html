@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biología</title>
     <link rel="stylesheet" href="css/styles.css">
+
+     <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#accordion" ).accordion({
+        collapsible: true
+        });
+    } );
+    </script>
 </head>
 <body>
     <nav>
@@ -17,16 +28,10 @@
         </ul>
     </nav>
     <main>
-        <nav>
-            <h2>Unidades:</h2>
-            <ul>
-                <li><a href="#Unidad_1">Unidad I</a></li>
-                <li><a href="#Unidad_2">Unidad II</a></li>
-            </ul>
-        </nav>
+        <section id="accordion">
+            <h1>Unidad I</h1>
             <section id="Unidad_1">
                 <article>
-                    <h1>Unidad I</h1>
                     <img src="./images/Biologia/img01.png" alt="">
                     <hr>
                      <img src="./images/Biologia/img02.png" alt="">
@@ -251,10 +256,10 @@
                     </ul>
                 </article>
             </section>
-            <hr>
+
+            <h1>Unidad II</h1>
             <section id="Unidad_2">
                 <article>
-                    <h1>Unidad II</h1>
                     <h2>La célula</h2>
                     <p>La célula es la unidad más pequeña de un ser vivo que muestra todas las propiedades y características de la vida, ya que se distingue del medio que la rodea(gracias a su membraba), tiene un metabolismo propio y puede rectificarse(toda cédlula proviene de otra célula).</p>
                     <p>La división más importante entre los seres vivos no es la existente entre animales y vegetales, sino la de organismos eucariotas y organismos procariotas</p>
@@ -354,6 +359,7 @@
                
                 </article>
 
+        </section>
         </section>
     </main>
 </body>

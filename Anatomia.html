@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anatomía</title>
     <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#accordion" ).accordion({
+        collapsible: true
+        });
+    } );
+    </script>
 </head>
 <body>
     <nav>
@@ -17,16 +28,10 @@
         </ul>
     </nav>
     <main>
-        <nav>
-            <h2>Unidades:</h2>
-            <ul>
-                <li><a href="#Unidad_1">Unidad I</a></li>
-                <li><a href="#Unidad_2">Unidad II</a></li>
-            </ul>
-        </nav>
-        <section id="Unidad_1">
+        <section id="accordion">
+           <h1>Unidad I</h1>
+           <section id="Unidad_1">
             <article>
-                <h1>Unidad I</h1>
                 <h2>Anatomía</h2>  
                 <p>
                     Ciencia dedicada al estudio de estructura y forma del cuerpo humnano,
@@ -213,11 +218,11 @@
                     </li>
                 </ul>
             </article>
-        </section>
-        <hr>
-        <section id="Unidad_2">
+            </section>
+
+            <h1>Unidad II</h1>
+            <section id="Unidad_2">
             <article>
-                 <h1>Unidad II</h1>
                 <h2>El sistema nervioso</h2>
                 <p>
                     Es una red complejas de estructuras especializadas que tiene como misión controlar y regular el funcionamiento de los diversos órganos y sistemas, coordinando su interelación y la relación del organismo con el medio externo.
@@ -326,6 +331,7 @@
                     </li>
                 </ol>
             </article>
+            </section>
         </section>
     </main>
 </body>
