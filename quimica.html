@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Química</title>
     <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#accordion" ).accordion({
+        collapsible: true
+        });
+    } );
+    </script>    
 </head>
 <body>
     <nav>
@@ -17,32 +28,23 @@
         </ul>
     </nav>
     <main>
-        <nav>
-            <h2>Unidades:</h2>
-            <ul>
-                <li><a href="#Unidad_1">Unidad I</a></li>
-                <li><a href="#Unidad_2">Unidad II</a></li>
-            </ul>
-        </nav>
-        <section id="Unidad_1">
-            <article>
-                <h1>Unidad I</h1>
-                <img src="./images/quimica/img01.png" alt="">
-                <img src="./images/quimica/img02.png" alt="">
-                <img src="./images/quimica/img03.png" alt="">
-                <img src="./images/quimica/img04.png" alt="">
-                <img src="./images/quimica/img05.png" alt="">
-                <img src="./images/quimica/img06.png" alt="">
-                <img src="./images/quimica/img07.png" alt="">
-                <img src="./images/quimica/img08.png" alt="">
-                <img src="./images/quimica/img09.png" alt="">
-            </article>
-        </section>
-         <section id="Unidad_2">
-            <article>
-                <h1>Unidad II</h1>
-  
-            </article>
+        <section id="accordion">
+            <h1>Unidad I</h1>
+            <section id="Unidad_1">
+                <article>
+
+                    <img src="./images/quimica/img01.png" alt="">
+                    <img src="./images/quimica/img02.png" alt="">
+                    <img src="./images/quimica/img03.png" alt="">
+                    <img src="./images/quimica/img04.png" alt="">
+                    <img src="./images/quimica/img05.png" alt="">
+                    <img src="./images/quimica/img06.png" alt="">
+                    <img src="./images/quimica/img07.png" alt="">
+                    <img src="./images/quimica/img08.png" alt="">
+                    <img src="./images/quimica/img09.png" alt="">
+                </article>
+            </section>
+       
         </section>
     </main>
 </body>

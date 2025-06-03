@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Literatura</title>
     <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#accordion" ).accordion({
+        collapsible: true
+        });
+    } );
+    </script>
 </head>
 <body>
     <nav>
@@ -17,16 +28,11 @@
         </ul>
     </nav>
     <main>
-        <nav>
-            <h2>Unidades:</h2>
-            <ul>
-                <li><a href="#Unidad_1">Unidad I</a></li>
-                <li><a href="#Unidad_2">Unidad II</a></li>
-            </ul>
-        </nav>
+       <section id="accordion">
+        <h1>Unidad I</h1>
         <section id="Unidad_1">
+
             <article>
-                <h1>Unidad I</h1>
                 <h2>Géneros literarios</h2>
                 <p>
                     El mundo avanza, muta, se transforma, el mundo cambia, la literatura permanece fluyendo en las distintas épocas, la necesidad de transmitir angustia, penas, amores, sueños, alegrias de hombres y mujers desde tiempos remotos se buscó la forma de estudiar al fenómeno, sí lo hizo el filósofo griego Aristóteles en su poéticam uno de los primeros intentos. La clasificación de los Géneros nos ayudará a conocer sus distintas formas.
@@ -115,10 +121,6 @@
                     </p>
                 </article>
         </section>
-         <section id="Unidad_2">
-            <article>
-               
-            </article>
         </section>
     </main>
 </body>
