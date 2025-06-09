@@ -20,6 +20,7 @@ footer h1 {
 
 nav h1 {
     margin-right: auto;
+    color:#fff;
     /* background-color: skyblue; */
 }
 
@@ -30,16 +31,35 @@ footer a {
     text-decoration: none;
 }
 
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
+nav{
+	background-color:#000;
+	display: flex;
+    justify-content:flex-end;
     align-items: center;
     padding: 20px;
+}
+
+nav ul{
+	list-style:none;
+}
+
+nav ul li{
+	width:100%;
+	padding:.2em 0;
+	margin:.2em;
+}
+
+nav ul li a{
+	color:#fff;
+	font-family: Trebuchet Ms;
+	text-decoration:none;
+	border:2px solid transparent;
+	display:inline-flex;
+	padding:.2em;
+}
+
+nav ul li a:hover{
+	border:2px solid #fff;
 }
 
 ul {
