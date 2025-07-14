@@ -249,3 +249,10 @@ main {
 .respuesta{
     color:red;
 }
+
+.float{
+    overflow: hidden;
+}
+.float img{
+    float: right;
+}
