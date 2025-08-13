@@ -106,6 +106,21 @@ article img{
     height: auto;
 }
 
+table th {
+  vertical-align: top;
+  color: #fff;
+  background-color: #000;
+}
+
+table td {
+  vertical-align: top;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
 .float{
     overflow: hidden;
 }
