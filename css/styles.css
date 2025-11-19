@@ -61,13 +61,6 @@ header h1 {
 
 h1,h2,h3,h4, .item { color: black;}
 
-h2,
-h3 {
-    font-size: 20px;
-    background-color: #FCEE21;
-    /* display: inline; */
-}
-
 h3 {
     font-size: 26px;
 }
@@ -106,6 +99,25 @@ article img{
     height: auto;
 }
 
+article h1{
+    margin: 0;
+    font-size: 30px;
+    color: red;
+    padding: 5px;
+    text-align: center;
+    text-decoration-line: underline;
+
+}
+
+article h2{
+    margin: 0;
+    font-size: 24px;
+    color: red;
+    padding: 5px;
+    text-decoration-line: underline;
+
+}
+
 table th {
   vertical-align: top;
   color: #fff;
@@ -128,4 +140,7 @@ table, th, td {
     float: right;
 }
 
+.ui-accordion .ui-accordion-content {
+  padding: 0.5em 1.3em !important;;
+}
 

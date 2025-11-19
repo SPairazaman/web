@@ -8,7 +8,8 @@
         $("#unidadesBI" ).accordion({
             collapsible: true,
             heightStyle: "content",
-            active:100
+            active:100,
+            
         });
 
         $("#unidadesBII" ).accordion({
